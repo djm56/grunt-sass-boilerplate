@@ -1,0 +1,84 @@
+/*
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+*/
+/*
+    Created on : 21 Sep 2021, 15:13:23
+    Author     : Donovan Maidens <donovan@anomalous.co.za>
+*/
+
+// Globals
+$global-font_family  : Arial, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$global-font_size      : 16px;
+$global-line_height    : 1.5;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-weight_normal: normal;
+$global-weight_bold: bold;
+$global-radius: 5px;
+
+// Colors
+$light-gray: #e6e6e6;
+$medium-gray: #656565;
+$dark-gray: #2a2e32;
+$black: #000000;
+$white: #ffffff;
+$primary-color: #ed2329;
+$secondary-color: #f2273c;
+$success-color: #6cba66;
+$warning-color: #0da4dd;
+$alert-color: #d11313;
+
+// Site Global Settings
+$body-background: $white;
+$body-font-color: $medium-gray;
+$body-antialiased: true;
+$body-text-rendering: optimizeLegibility;
+
+// Typography
+$header-font_family: $global-font_family;
+$header-font_weight: $global-weight_normal;
+$header-font_style: normal;
+$header-color: inherit;
+$header-line_height: 1.4;
+$header-margin_bottom: 0.5rem;
+$header-text_rendering: optimizeLegibility;
+$header-styles: (
+"h1": (
+"font_size":65
+),
+"h2": (
+"font_size":35
+),
+"h3": (
+"font_size":26
+),
+"h4": (
+"font_size":15
+),
+"h5": (
+"font_size":14
+),
+"h6": (
+"font_size":13
+)
+);
+
+$paragraph-line_height: 1.6;
+$paragraph-margin_bottom: 1rem;
+$paragraph-text_rendering: optimizeLegibility;
+
